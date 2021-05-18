@@ -1,5 +1,5 @@
 <template>
-  <q-page  class="">
+  <q-page style="    padding-top: 56px;"  class="">
 
     <q-tabs
       v-model="tab"
@@ -191,7 +191,9 @@ export default {
 
 
 .menu-tabs
-  position: sticky
+  //position: sticky
+  position: fixed
+  width: 100%
   top: 82px
   z-index: 100
   & .q-tab
